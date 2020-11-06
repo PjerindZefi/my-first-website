@@ -1,0 +1,409 @@
+ 
+
+  * {box-sizing: border-box;} 
+
+  body {font-family: Verdana, sans-serif; margin:0} 
+
+ .mySlides {display: none} 
+
+img {vertical-align: middle;} 
+
+         
+
+        /* Slideshow container */ 
+
+.slideshow-container { 
+
+max-width: 750px; 
+
+ position: relative; 
+
+ margin: auto; 
+
+ } 
+
+.prev, .next { 
+
+ cursor: pointer; 
+
+ position: absolute; 
+
+  top: 50%; 
+
+ width: auto; 
+
+ padding: 16px; 
+
+ margin-top: -22px; 
+
+ color: white; 
+
+font-weight: bold; 
+
+font-size: 18px; 
+
+transition: 0.6s ease; 
+
+ border-radius: 0 3px 3px 0; 
+
+ user-select: none; 
+
+ } 
+
+ .text { 
+
+ color: violet; 
+
+font-size: 15px; 
+
+  padding: 8px 12px; 
+
+  position: absolute; 
+
+  bottom: 8px; 
+
+  width: 100%; 
+
+  text-align: center; 
+
+   } 
+
+         
+
+     
+
+  .next { 
+
+   right: 0; 
+
+   border-radius: 3px 0 0 3px; 
+
+  } 
+
+         
+
+.prev:hover, .next:hover { 
+
+background-color: rgba(0,0,0,0.8); 
+
+ } 
+
+       
+
+.img_{ 
+
+ margin-right: 20px; 
+
+width: 15rem; 
+
+ } 
+
+ 
+
+.jumbotron{  
+
+  background-color: cornflowerblue; 
+
+} 
+
+ 
+
+ 
+
+/* CONTACT US FORM */ 
+
+ 
+
+ 
+
+input[type=text], select, textarea { 
+
+  width: 100%; 
+
+  padding: 12px; 
+
+  border: 1px solid #ccc; 
+
+  border-radius: 5px; 
+
+  box-sizing: border-box; 
+
+  margin-top: 5px; 
+
+  margin-bottom: 17px; 
+
+  resize: vertical; 
+
+} 
+
+ 
+
+input[type=submit]{ 
+
+  background-color: blueviolet; 
+
+  color: aqua; 
+
+} 
+
+input[type=submit]:hover{ 
+
+  background-color: violet; 
+
+} 
+
+ 
+
+ 
+
+/* Credit card form */ 
+
+ 
+
+body { 
+
+  font-family: Arial; 
+
+  font-size: 17px; 
+
+  padding: 8px; 
+
+} 
+
+ 
+
+.row { 
+
+  display: -ms-flexbox; 
+
+  display: flex; 
+
+  -ms-flex-wrap: wrap;  
+
+  flex-wrap: wrap; 
+
+  margin: 0 -16px; 
+
+} 
+
+ 
+
+.col-50 { 
+
+  -ms-flex: 50%; 
+
+  flex: 50%; 
+
+} 
+
+ 
+
+.col-75 { 
+
+  -ms-flex: 75%; 
+
+  flex: 75%; 
+
+} 
+
+ 
+
+.col-50, 
+
+.col-75 { 
+
+  padding: 0 16px; 
+
+} 
+
+ 
+
+.container-{ 
+
+  background-color: #f2f2f2; 
+
+  padding: 5px 20px 15px 20px; 
+
+  border: 1px solid lightgrey; 
+
+  border-radius: 3px; 
+
+} 
+
+ 
+
+.input_credit[type=text] { 
+
+  width: 100%; 
+
+  margin-bottom: 20px; 
+
+  padding: 12px; 
+
+  border: 1px solid #ccc; 
+
+  border-radius: 3px; 
+
+} 
+
+ 
+
+label { 
+
+  margin-bottom: 10px; 
+
+  display: block; 
+
+} 
+
+ 
+
+.icon-container { 
+
+  margin-bottom: 20px; 
+
+  padding: 7px 0; 
+
+  font-size: 24px; 
+
+} 
+
+ 
+
+ 
+
+.btn { 
+
+  background-color: blueviolet; 
+
+  color: aqua; 
+
+  padding: 12px; 
+
+  margin: 10px 0; 
+
+  border: none; 
+
+  width: 100%; 
+
+  border-radius: 3px; 
+
+  cursor: pointer; 
+
+  font-size: 17px; 
+
+   
+
+} 
+
+ 
+
+.btn:hover { 
+
+  background-color: violet; 
+
+} 
+
+ 
+
+a { 
+
+  color: #2196F3; 
+
+} 
+
+ 
+
+hr { 
+
+  border: 1px solid lightgrey; 
+
+} 
+
+ 
+
+  .col-25 { 
+
+    margin-bottom: 20px; 
+
+  } 
+
+ 
+
+/* shoping  */ 
+
+ 
+
+.card { 
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); 
+
+  max-width: 300px; 
+
+  margin: auto; 
+
+  text-align: center; 
+
+  font-family: arial; 
+
+} 
+
+ 
+
+/* =======================SIGN UP FORM================== */ 
+
+input[type=text], input[type=password] { 
+
+  width: 100%; 
+
+  padding: 15px; 
+
+  margin: 5px 0 22px 0; 
+
+  display: inline-block; 
+
+  border: none; 
+
+  background: #f1f1f1; 
+
+} 
+
+ 
+
+input[type=text]:focus, input[type=password]:focus { 
+
+  background-color: #ddd; 
+
+  outline: none; 
+
+} 
+
+ 
+
+hr { 
+
+  border: 1px solid #f1f1f1; 
+
+  margin-bottom: 25px; 
+
+} 
+
+ 
+
+.cancelbtn, .signupbtn { 
+
+  float: left; 
+
+  width: 50%; 
+
+} 
+
+ 
+
+.container { 
+
+  padding: 16px; 
+
+} 
+
+ 
